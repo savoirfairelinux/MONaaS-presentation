@@ -1,4 +1,4 @@
-.. revealjs:: Nos demarches
+.. revealjs:: Nos démarches
 
     .. rst-class:: fragment
     .. raw:: html
@@ -10,7 +10,8 @@
        </ul>
 
     .. raw:: html
- 
-        <aside class="notes"> 
+
+        <aside class="notes">
             Reaction de HP
+            Meetings IRC
         </aside>
