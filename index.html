@@ -62,12 +62,13 @@
 </section>
 <section>
 <h2>Qu'est-ce que la supervision?</h2>
-<div class="fragment first last"><ul>
-<li class="fragment">Exécute des vérifications</li>
-<li class="fragment">Applique des règles</li>
-<li class="fragment">Alerte les utilisateurs</li>
-<li class="fragment">Stocke une historique des données</li>
-</ul></div></section>
+<ul class="first last simple">
+<li>Exécute des vérifications</li>
+<li>Applique des règles</li>
+<li>Alerte les utilisateurs</li>
+<li>Stocke une historique des données</li>
+</ul>
+</section>
 <section>
 <section class="first">
 <h2>L'État du monitoring dans le cloud</h2>
@@ -101,13 +102,13 @@ CloudWatch</li>
 </section>
 <section>
 <p class="first"><strong>Objectif initial</strong></p>
-<p>Être l&#8217;unique point de contact pour les <strong>systèmes de facturation</strong> et d&#8217;acquérir tout les <strong>mesures</strong> que ceux ci ont besoin pour effectuer la facturation à travers l&#8217;ensemble des composants OpenStack.</p>
-<a class="fragment last reference external image-reference" href="http://docs.openstack.org/developer/ceilometer/measurements.html"><img alt="Ruban Mesurer" src="_images/ruban_mesurer.png" style="width: 300px; height: 300px;" /></a>
+<p>Être l&#8217;unique point de contact pour les <strong>systèmes de facturation</strong> et d&#8217;acquérir toutes les <strong>mesures</strong> que ceux ci ont besoin pour effectuer la facturation à travers l&#8217;ensemble des composants d&#8217;OpenStack.</p>
+<a class="last reference external image-reference" href="http://docs.openstack.org/developer/ceilometer/measurements.html:alt:RubanMesurer:width:300:height:300"><img alt="_images/ruban_mesurer.png" src="_images/ruban_mesurer.png" /></a>
 </section>
 <section>
 <p class="first"><strong>Depuis Grizzly:</strong></p>
-<p>devenir l&#8217;infrastructure pour la collecte de mesures dans OpenStack afin d&#8217;éviter que deux agents soient développés pour acquérir les mêmes données. Le but principal de ceilometer est le le <strong>monitoring</strong> et le metering.</p>
-<a class="fragment last reference internal image-reference" href="_images/camera.png"><img alt="caméra" class="fragment" src="_images/camera.png" style="width: 300px; height: 300px;" /></a>
+<p>Devenir l&#8217;infrastructure pour la collecte de mesures dans OpenStack afin d&#8217;éviter que deux agents soient développés pour acquérir les mêmes données. Le but principal de Ceilometer est le le <strong>monitoring</strong> et le metering.</p>
+<a class="last reference internal image-reference" href="_images/camera.png"><img alt="caméra" src="_images/camera.png" style="width: 300px; height: 300px;" /></a>
 </section>
 <section class="last">
 <h2>Les métriques disponibles dans Ceilometer</h2>
@@ -122,10 +123,10 @@ CloudWatch</li>
 <h2>Ce qui manque...</h2>
 <div class="fragment first last"><ul>
 <li class="fragment">Polling</li>
-<li class="fragment">Disponiiblité de services</li>
+<li class="fragment">Disponibilité de services</li>
 <li class="fragment">Données applicatives</li>
-<li class="fragment">Scénarios de vérifications</li>
-<li class="fragment">Règles d'affaires sur les alarmes</li>
+<li class="fragment">Scénarios de vérification</li>
+<li class="fragment">Règles d'affairesp</li>
 <li class="fragment">Scaling sur les données applicatives</li>
 </ul></div></section>
 <section>
@@ -150,7 +151,7 @@ CloudWatch</li>
 <section>
 <h2>Supervision des services</h2>
 <ul class="fragment first last simple">
-<li>Disponibilite</li>
+<li>Disponibilité</li>
 <li>Temps de réponse</li>
 <li>Scénarios HTTP</li>
 <li>Protocoles TCP/UDP (NTP, DNS, MYSQL, SMTP, IMAP, ...)</li>
@@ -163,7 +164,7 @@ CloudWatch</li>
 <section class="last">
 <h2>Supervision depuis plusieurs sites (suite...)</h2>
 <div class="fragment first last"><ul>
-<li class="fragment">Experience utilisateurs depuis plusieurs sites</li>
+<li class="fragment">Expérience utilisateurs depuis plusieurs sites</li>
 <li class="fragment">Assurer la disponibilité</li>
 <li class="fragment">Supervision plus complète</li>
 <li class="fragment">Comment est-ce que les utilisateurs de Montréal vivent la release localisée d'un nouveau module de notre application?</li>
@@ -175,8 +176,7 @@ CloudWatch</li>
 <div class="fragment first last"> <ul>
  <li class="fragment">Soumission du blueprint</li>
  <li class="fragment">Openstack-dev</li>
- <li class="fragment">Contact avec l'Équipe de Ceilometer</li>
- <li class="fragment">Cont</li>
+ <li class="fragment">Contact avec l'équipe de Ceilometer</li>
 </ul></div></section>
 </section>
 <section>
@@ -185,9 +185,7 @@ CloudWatch</li>
 </section>
 <section>
 <h2>hpcloud-mon</h2>
-</section>
-<section>
-<h2>Shinken comme coeur de monitoring</h2>
+<img alt="_images/mon-arch-component-diagram.png" class="first last" src="_images/mon-arch-component-diagram.png" />
 </section>
 <section data-transition="fade">
 <h2>Architecture actuelle</h2>
@@ -196,6 +194,23 @@ CloudWatch</li>
 <section data-transition="fade">
 <h2>suite...</h2>
 <img alt="_images/openstack_havana_conceptual_arch2.png" class="first last" src="_images/openstack_havana_conceptual_arch2.png" />
+</section>
+<section>
+<h2>Shinken comme coeur de supervision ?</h2>
+<ul class="first last simple">
+<li>Compatibilité Nagios</li>
+<li>Écrit en Python</li>
+<li>Architecture modulaire</li>
+<li>Intégration possible dans Horizon</li>
+</ul>
+</section>
+<section>
+<h2>Shinken comme coeur de monitoring</h2>
+<img alt="_images/shinken.png" class="first last" src="_images/shinken.png" />
+</section>
+<section>
+<h2>Supervision multisite avec Shinken</h2>
+<img alt="_images/shinken2.png" class="first last" src="_images/shinken2.png" />
 </section>
 <section>
 <h2>Monitoring de l'infrastructure OpenStack</h2>
@@ -215,6 +230,11 @@ CloudWatch</li>
 <li>Page wiki: <a class="reference external" href="https://wiki.openstack.org/wiki/MONaaS">https://wiki.openstack.org/wiki/MONaaS</a></li>
 <li>Annoncement sur openstack-dev: <a class="reference external" href="http://lists.openstack.org/pipermail/openstack-dev/2014-May/034189.html">http://lists.openstack.org/pipermail/openstack-dev/2014-May/034189.html</a></li>
 </ul>
+</section>
+</section>
+<section>
+<section class="first last">
+<h2>Questions / Discussion</h2>
 </section>
 </section>
 
