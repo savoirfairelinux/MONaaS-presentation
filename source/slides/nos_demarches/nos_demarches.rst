@@ -9,6 +9,8 @@
         <li class="fragment">Contact avec l'équipe de Ceilometer</li>
        </ul>
 
-    .. rst-class:: notes
-
-    Reaction de HP
+    .. raw:: html
+ 
+        <aside class="notes"> 
+            Reaction de HP
+        </aside>

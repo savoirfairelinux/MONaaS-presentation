@@ -6,8 +6,8 @@
 
 .. revealjs:: Architecture actuelle
     :data-transition: fade
+    :data-background: /_static/images/openstack_havana_conceptual_arch.png
 
-    .. image:: /_static/images/openstack_havana_conceptual_arch.png
 
 .. revealjs:: suite...
     :data-transition: fade

@@ -1,1 +1,1 @@
-.. image:: /_static/images/shinken2.png
+.. image:: /_static/images/shinken_openstack_multisite.png
