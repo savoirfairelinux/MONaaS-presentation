@@ -4,15 +4,15 @@
 
     .. image:: /_static/images/mon-arch-component-diagram.png
 
-.. revealjs:: Architecture actuelle
+.. revealjs::
     :data-transition: fade
-    :data-background: /_static/images/openstack_havana_conceptual_arch.png
+    :data-background: _static/images/openstack_havana_conceptual_arch.png
+    :data-background-size: auto 95%
 
-
-.. revealjs:: suite...
+.. revealjs:: 
     :data-transition: fade
-
-    .. image:: /_static/images/openstack_havana_conceptual_arch2.png
+    :data-background: _static/images/openstack_havana_conceptual_arch2.png
+    :data-background-size: auto 95%
 
 .. revealjs:: Shinken comme coeur de supervision ?
 
