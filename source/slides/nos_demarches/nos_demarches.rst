@@ -6,6 +6,5 @@
         <ul>
         <li class="fragment">Soumission du blueprint</li>
         <li class="fragment">Openstack-dev</li>
-        <li class="fragment">Contact avec l'Équipe de Ceilometer</li>
-        <li class="fragment">Cont</li>
+        <li class="fragment">Contact avec l'équipe de Ceilometer</li>
        </ul>
