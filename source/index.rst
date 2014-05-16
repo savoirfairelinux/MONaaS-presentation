@@ -44,3 +44,7 @@
 .. revealjs::
 
     .. include:: slides/references.rst
+
+.. revealjs::
+
+    .. include:: slides/questions.rst

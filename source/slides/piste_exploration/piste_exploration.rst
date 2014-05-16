@@ -2,6 +2,8 @@
 
 .. revealjs:: hpcloud-mon
 
+    .. image:: /_static/images/mon-arch-component-diagram.png
+
 .. revealjs:: Architecture actuelle
     :data-transition: fade
 
