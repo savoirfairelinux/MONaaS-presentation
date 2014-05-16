@@ -1,4 +1,4 @@
-.. revealjs:: Nos demarches
+.. revealjs:: Nos démarches
 
     .. rst-class:: fragment
     .. raw:: html
