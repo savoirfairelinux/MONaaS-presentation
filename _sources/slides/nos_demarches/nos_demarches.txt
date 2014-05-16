@@ -8,3 +8,10 @@
         <li class="fragment">Openstack-dev</li>
         <li class="fragment">Contact avec l'équipe de Ceilometer</li>
        </ul>
+
+    .. raw:: html
+
+        <aside class="notes">
+            Reaction de HP
+            Meetings IRC
+        </aside>
