@@ -12,8 +12,13 @@
 
     .. image:: /_static/images/openstack_havana_conceptual_arch2.png
 
+.. revealjs:: Shinken comme coeur de supervision ?
+
+    .. include:: slides/piste_exploration/shinken.rst
 
 .. revealjs:: Shinken comme coeur de monitoring
+
+    .. include:: slides/piste_exploration/shinken2.rst
 
 .. revealjs:: Monitoring de l'infrastructure OpenStack
 
