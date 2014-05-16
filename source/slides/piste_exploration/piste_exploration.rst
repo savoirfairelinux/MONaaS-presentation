@@ -9,7 +9,7 @@
 
     .. image:: /_static/images/openstack_havana_conceptual_arch.png
 
-.. revealjs:: Proposition d'architecture
+.. revealjs:: suite...
     :data-transition: fade
 
     .. image:: /_static/images/openstack_havana_conceptual_arch2.png
