@@ -1,0 +1,4 @@
+To build the presentation
+1. virtualenv env
+2. pip install -r requirements.freeze
+3. make html
