@@ -20,6 +20,11 @@
 
     .. include:: slides/piste_exploration/shinken2.rst
 
+
+.. revealjs:: Supervision multisite avec Shinken
+
+    .. include:: slides/piste_exploration/shinken3.rst
+
 .. revealjs:: Monitoring de l'infrastructure OpenStack
 
 .. revealjs:: Monitoring sur terre
