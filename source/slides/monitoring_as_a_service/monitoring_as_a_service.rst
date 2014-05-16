@@ -13,6 +13,7 @@
     .. include:: slides/monitoring_as_a_service/availability.rst
 
 .. revealjs:: Supervision depuis plusieurs sites
+    :title-heading: h4
 
     .. include:: slides/monitoring_as_a_service/multisite.rst
 
