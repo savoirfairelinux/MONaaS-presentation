@@ -9,7 +9,7 @@
     :data-background: _static/images/openstack_havana_conceptual_arch.png
     :data-background-size: auto 95%
 
-.. revealjs:: 
+.. revealjs::
     :data-transition: fade
     :data-background: _static/images/openstack_havana_conceptual_arch2.png
     :data-background-size: auto 95%
@@ -28,6 +28,8 @@
     .. include:: slides/piste_exploration/shinken3.rst
 
 .. revealjs:: Monitoring de l'infrastructure OpenStack
+
+    .. include:: slides/piste_exploration/monitoring_infra_openstack.rst
 
 .. revealjs:: Monitoring sur terre
 
