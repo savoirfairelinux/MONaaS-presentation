@@ -2,8 +2,6 @@
 
 .. revealjs:: hpcloud-mon
 
-.. revealjs:: Shinken comme coeur de monitoring
-
 .. revealjs:: Architecture actuelle
     :data-transition: fade
 
@@ -13,6 +11,9 @@
     :data-transition: fade
 
     .. image:: /_static/images/openstack_havana_conceptual_arch2.png
+
+
+.. revealjs:: Shinken comme coeur de monitoring
 
 .. revealjs:: Monitoring de l'infrastructure OpenStack
 
