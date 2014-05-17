@@ -1,8 +1,10 @@
 .. revealjs:: Pistes d'exploration
 
 .. revealjs:: hpcloud-mon
+    :title-heading: h3
 
-    .. image:: /_static/images/mon-arch-component-diagram.png
+    .. image:: /_static/images/hpmon.png
+        :width: 80%
 
 .. revealjs::
     :data-transition: fade
@@ -15,22 +17,31 @@
     :data-background-size: auto 95%
 
 .. revealjs:: Shinken comme coeur de supervision ?
+    :title-heading: h2
 
     .. include:: slides/piste_exploration/shinken.rst
 
-.. revealjs:: Shinken comme coeur de monitoring
+.. revealjs:: Exemple d'implémentation avec Shinken
+    :title-heading: h3
+
 
     .. include:: slides/piste_exploration/shinken2.rst
 
 
-.. revealjs:: Supervision multisite avec Shinken
+.. revealjs:: Exemple d'implémentation avec Shinken
+    :title-heading: h3
 
     .. include:: slides/piste_exploration/shinken3.rst
 
 .. revealjs:: Monitoring de l'infrastructure OpenStack
+    :title-heading: h2
 
     .. include:: slides/piste_exploration/monitoring_infra_openstack.rst
 
 .. revealjs:: Monitoring sur terre
+    :title-heading: h2
+
+    .. include:: slides/piste_exploration/monitoring_physique.rst
 
 .. revealjs:: Atterissage reussi
+
