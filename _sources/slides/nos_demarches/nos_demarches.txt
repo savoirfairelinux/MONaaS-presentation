@@ -12,6 +12,6 @@
     .. raw:: html
 
         <aside class="notes">
-            Reaction de HP
-            Meetings IRC
+            Réaction de HP
+            <br>Meetings IRC
         </aside>

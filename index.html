@@ -159,16 +159,16 @@ CloudWatch</li>
 </section>
 <section>
 <h2>Supervision depuis plusieurs sites</h2>
-<img alt="_images/verification-multi-site.png" class="first last" src="_images/verification-multi-site.png" />
-</section>
-<section class="last">
-<h2>Supervision depuis plusieurs sites (suite...)</h2>
 <div class="fragment first last"><ul>
 <li class="fragment">Expérience utilisateurs depuis plusieurs sites</li>
 <li class="fragment">Assurer la disponibilité</li>
 <li class="fragment">Supervision plus complète</li>
 <li class="fragment">Comment est-ce que les utilisateurs de Montréal vivent la release localisée d'un nouveau module de notre application?</li>
 </ul></div></section>
+<section class="last">
+<h4>Supervision depuis plusieurs sites (schéma)</h4>
+<img alt="_images/verification-multi-site.png" class="first last" src="_images/verification-multi-site.png" />
+</section>
 </section>
 <section>
 <section class="first last">
@@ -178,8 +178,8 @@ CloudWatch</li>
  <li class="fragment">Openstack-dev</li>
  <li class="fragment">Contact avec l'équipe de Ceilometer</li>
 </ul></div><div class="last"><aside class="notes">
-    Reaction de HP
-    Meetings IRC
+    Réaction de HP
+    <br>Meetings IRC
 </aside></div></section>
 </section>
 <section>
@@ -187,8 +187,8 @@ CloudWatch</li>
 <h2>Pistes d'exploration</h2>
 </section>
 <section>
-<h2>hpcloud-mon</h2>
-<img alt="_images/mon-arch-component-diagram.png" class="first last" src="_images/mon-arch-component-diagram.png" />
+<h3>hpcloud-mon</h3>
+<a class="first last reference internal image-reference" href="_images/hpmon.png"><img alt="_images/hpmon.png" src="_images/hpmon.png" style="width: 80%;" /></a>
 </section>
 <section data-background="_static/images/openstack_havana_conceptual_arch.png" data-background-size="auto 95%" data-transition="fade">
 </section>
@@ -204,21 +204,38 @@ CloudWatch</li>
 </ul>
 </section>
 <section>
-<h2>Shinken comme coeur de monitoring</h2>
+<h3>Exemple d'implémentation avec Shinken</h3>
 <img alt="_images/shinken_in_openstack.png" class="first last" src="_images/shinken_in_openstack.png" />
 </section>
 <section>
-<h2>Supervision multisite avec Shinken</h2>
+<h3>Exemple d'implémentation avec Shinken</h3>
 <img alt="_images/shinken_openstack_multisite.png" class="first last" src="_images/shinken_openstack_multisite.png" />
 </section>
 <section>
 <h2>Monitoring de l'infrastructure OpenStack</h2>
-<div class="first last"><aside class="notes">
+<ul class="first simple">
+<li>Disponibilité de chaque élément d&#8217;OpenStack à travers l&#8217;API</li>
+<li>Performance de chaque éléments d&#8217;OpenStack à travers Ceilometer</li>
+<li>Supervision des événements à travers RabbitMQ</li>
+</ul>
+<div class="last"><aside class="notes">
     Monitoring actuel Nagios
 </aside></div></section>
 <section>
 <h2>Monitoring sur terre</h2>
-</section>
+<ul class="first simple">
+<li>Supervision standard de l&#8217;infrastructure<ul>
+<li>Serveurs</li>
+<li>Switches</li>
+<li>Firewall</li>
+<li>SAN</li>
+<li>...</li>
+</ul>
+</li>
+</ul>
+<div class="last"><aside class="notes">
+    Monitoring actuel Nagios
+</aside></div></section>
 <section class="last">
 <h2>Atterissage reussi</h2>
 </section>
