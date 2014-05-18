@@ -10,7 +10,7 @@
 .. raw:: html
 
    <ul>
-   <li class="fragment">Monitoring <b>actif</b> et passif</li>
+   <li class="fragment">Supervision <b>active</b> et passive</li>
     <li class="fragment">Vérification de services</li>
    <li class="fragment">API Put pour métriques personnalisées</li>
    <li class="fragment">Alarmes</li>

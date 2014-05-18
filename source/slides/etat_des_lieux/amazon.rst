@@ -14,7 +14,7 @@
 .. raw:: html
 
    <ul>
-   <li class="fragment">Monitoring passif seulement</li>
+   <li class="fragment">Supervision passive seulement</li>
    <li class="fragment">API Put pour métriques personnalisées</li>
    <li class="fragment">Alarmes</li>
    <li class="fragment">Utilisez Auto Scaling pour ajouter ou supprimer

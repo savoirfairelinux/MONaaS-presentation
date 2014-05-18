@@ -33,12 +33,12 @@
 
     .. include:: slides/piste_exploration/shinken3.rst
 
-.. revealjs:: Monitoring de l'infrastructure OpenStack
+.. revealjs:: Supervision de l'infrastructure OpenStack
     :title-heading: h2
 
     .. include:: slides/piste_exploration/monitoring_infra_openstack.rst
 
-.. revealjs:: Monitoring sur terre
+.. revealjs:: Supervision sur terre
     :title-heading: h2
 
     .. include:: slides/piste_exploration/monitoring_physique.rst
