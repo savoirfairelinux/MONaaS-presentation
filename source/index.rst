@@ -5,18 +5,16 @@
 
 
 .. revealjs:: Supervision OpenStack
-    :title-heading: h2
-
-    ..    :subtitle: SOUS-TITRE :)
-    ..    :subtitle-heading: h3
 
     .. include:: intro.rst
 
 .. revealjs:: Monitoring as a Servce
+    :title-heading: h2
 
     .. include:: intro2.rst
 
 .. revealjs:: Qu'est-ce que la supervision?
+    :title-heading: h2
 
     .. include:: slides/monitoring.rst
 
