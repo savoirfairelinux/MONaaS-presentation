@@ -43,5 +43,6 @@
 
     .. include:: slides/piste_exploration/monitoring_physique.rst
 
-.. revealjs:: Atterissage reussi
+.. revealjs:: En résumé
 
+    .. include:: slides/piste_exploration/shinken_final.rst
