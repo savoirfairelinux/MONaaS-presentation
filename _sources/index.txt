@@ -6,8 +6,9 @@
 
 .. revealjs:: Supervision OpenStack
     :title-heading: h2
-    :subtitle: SOUS-TITRE :)
-    :subtitle-heading: h3
+
+    ..    :subtitle: SOUS-TITRE :)
+    ..    :subtitle-heading: h3
 
     .. include:: intro.rst
 

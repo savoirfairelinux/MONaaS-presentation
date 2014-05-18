@@ -8,9 +8,9 @@ Supervision de trois niveaux :
 
     <br/>
 
-* Utilisateurs d'OpenStack
-* Administrateurs d'OpenStack
-* Opérateurs de l'infrastucture physique
+* Des applicatifs (Support de StatD, ...)
+* De la plate-forme (Apache, Mysql, Reddis, ...)
+* De l'infrastructure (CPU, mémoire, IO, ...)
 
 .. raw:: html
 

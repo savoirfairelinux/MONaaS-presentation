@@ -33,9 +33,9 @@
         
   <section>
 <h2>Supervision OpenStack</h2>
-<h3>SOUS-TITRE :)</h3>
-<div class="first"><br/>
-<br/></div><p>Alexandre Viau</p>
+<p class="first">MONaaS</p>
+<br/>
+<br/><p>Alexandre Viau</p>
 <small>
 <a class="reference external" href="mailto:alexandre&#46;viau&#37;&#52;&#48;savoirfairelinux&#46;com">alexandre<span>&#46;</span>viau<span>&#64;</span>savoirfairelinux<span>&#46;</span>com</a></small>
 <p>Thibault Cohen</p>
@@ -56,7 +56,8 @@
 </section>
 <section>
 <h2>Monitoring as a Servce</h2>
-<ul class="first last simple">
+<p class="first">MONaas</p>
+<br/><ul class="last simple">
 <li><a class="reference external" href="https://blueprints.launchpad.net/ceilometer/+spec/monitoring-as-a-service">https://blueprints.launchpad.net/ceilometer/+spec/monitoring-as-a-service</a></li>
 </ul>
 </section>
@@ -71,13 +72,13 @@
 </section>
 <section>
 <section class="first">
-<h2>L'État du monitoring dans le cloud</h2>
+<h2>L'État de la supervision dans le cloud</h2>
 </section>
 <section>
 <a class="first reference external image-reference" href="https://aws.amazon.com/cloudwatch/"><img alt="Amazon CloudWatch" src="_images/amazon_cloudwatch.png" style="width: 588px; height: 144px;" /></a>
 <p class="fragment">&#8220;<strong>Amazon CloudWatch</strong> fournit une surveillance pour les ressources du cloud AWS et les applications que les clients exécutent sur AWS.&#8221;</p>
 <div class="fragment last"><ul>
-<li class="fragment">Monitoring passif seulement</li>
+<li class="fragment">Supervision passive seulement</li>
 <li class="fragment">API Put pour métriques personnalisées</li>
 <li class="fragment">Alarmes</li>
 <li class="fragment">Utilisez Auto Scaling pour ajouter ou supprimer
@@ -87,7 +88,7 @@ CloudWatch</li>
 <section class="last">
 <a class="first reference external image-reference" href="https://monitoring.api.rackspacecloud.com/"><img alt="Rackspace Cloud Monitoring" src="_images/rackspace-cloud-monitoring.png" style="width: 588px; height: 144px;" /></a>
 <div class="fragment last"><ul>
-<li class="fragment">Monitoring <b>actif</b> et passif</li>
+<li class="fragment">Supervision <b>active</b> et passive</li>
  <li class="fragment">Vérification de services</li>
 <li class="fragment">API Put pour métriques personnalisées</li>
 <li class="fragment">Alarmes</li>
@@ -220,7 +221,7 @@ CloudWatch</li>
 <img alt="_images/shinken_openstack_multisite.png" class="first last" src="_images/shinken_openstack_multisite.png" />
 </section>
 <section>
-<h2>Monitoring de l'infrastructure OpenStack</h2>
+<h2>Supervision de l'infrastructure OpenStack</h2>
 <ul class="first simple">
 <li>Disponibilité de chaque élément d&#8217;OpenStack à travers l&#8217;API</li>
 <li>Performance de chaque éléments d&#8217;OpenStack à travers Ceilometer</li>
@@ -230,7 +231,7 @@ CloudWatch</li>
     Monitoring actuel Nagios
 </aside></div></section>
 <section>
-<h2>Monitoring sur terre</h2>
+<h2>Supervision sur terre</h2>
 <ul class="first simple">
 <li>Supervision standard de l&#8217;infrastructure<ul>
 <li>Serveurs</li>
@@ -248,9 +249,9 @@ CloudWatch</li>
 <h2>En résumé</h2>
 <div class="first"><br/></div><p>Supervision de trois niveaux :</p>
 <br/><ul class="simple">
-<li>Utilisateurs d&#8217;OpenStack</li>
-<li>Administrateurs d&#8217;OpenStack</li>
-<li>Opérateurs de l&#8217;infrastucture physique</li>
+<li>Des applicatifs (Support de StatD, ...)</li>
+<li>De la plate-forme (Apache, Mysql, Reddis, ...)</li>
+<li>De l&#8217;infrastructure (CPU, mémoire, IO, ...)</li>
 </ul>
 <br/>
 <br/><p class="last">Le concept de royaume dans Shinken permettrait d&#8217;effectuer la superivision de ces trois niveaux, de façon indépendante</p>
