@@ -2,6 +2,8 @@
 
 .. revealjs:: Monitoring as a Service
 
+    .. include:: slides/monitoring_as_a_service/description.rst
+
 .. revealjs:: Ce que cela apporterait
 
 .. revealjs:: Polling d'agents dans les instances
