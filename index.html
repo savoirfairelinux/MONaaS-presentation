@@ -144,6 +144,8 @@ CloudWatch</li>
 </ul>
 <div class="last"><aside class="notes">
     Le SLA doit être beaucoup plus haut que celui de l'application.
+    <br/>
+    00:10:00
 </aside></div></section>
 <section>
 <h2>Ce que cela apporterait</h2>
@@ -176,8 +178,12 @@ CloudWatch</li>
 </ul></div></section>
 <section class="last">
 <h4>Supervision depuis plusieurs sites (schéma)</h4>
-<img alt="_images/verification-multi-site.png" class="first last" src="_images/verification-multi-site.png" />
-</section>
+<img alt="_images/verification-multi-site.png" class="first" src="_images/verification-multi-site.png" />
+<div class="last"><aside class="notes">
+    Monitoring actuel Nagios
+    <br/>
+    00:15:00
+</aside></div></section>
 </section>
 <section>
 <section class="first last">
@@ -193,7 +199,7 @@ CloudWatch</li>
 </section>
 <section>
 <section class="first">
-<h2>Pistes d'exploration</h2>
+<h2>Idées d'implémentation</h2>
 </section>
 <section>
 <h3>hpcloud-mon</h3>
@@ -209,6 +215,7 @@ CloudWatch</li>
 <li>Compatibilité Nagios</li>
 <li>Écrit en Python</li>
 <li>Architecture modulaire</li>
+<li>Support des règles d&#8217;affaires</li>
 <li>Intégration possible dans Horizon</li>
 </ul>
 </section>
@@ -244,9 +251,8 @@ CloudWatch</li>
 </ul>
 </section>
 <section class="last">
-<h2>En résumé</h2>
-<div class="first"><br/></div><p>Supervision de trois niveaux :</p>
-<br/><ul class="simple">
+<h3>Supervision sur trois niveaux</h3>
+<div class="first"><br/></div><ul class="simple">
 <li>Des applicatifs (Support de StatD, ...)</li>
 <li>De la plate-forme (Apache, Mysql, Reddis, ...)</li>
 <li>De l&#8217;infrastructure (CPU, mémoire, IO, ...)</li>

@@ -1,4 +1,4 @@
-.. revealjs:: Pistes d'exploration
+.. revealjs:: Idées d'implémentation
 
 .. revealjs:: hpcloud-mon
     :title-heading: h3
@@ -43,6 +43,7 @@
 
     .. include:: slides/piste_exploration/monitoring_physique.rst
 
-.. revealjs:: En résumé
+.. revealjs:: Supervision sur trois niveaux
+    :title-heading: h3
 
     .. include:: slides/piste_exploration/shinken_final.rst

@@ -2,12 +2,6 @@
 
     <br/>
 
-Supervision de trois niveaux :
-
-.. raw:: html
-
-    <br/>
-
 * Des applicatifs (Support de StatD, ...)
 * De la plate-forme (Apache, Mysql, Reddis, ...)
 * De l'infrastructure (CPU, mémoire, IO, ...)
