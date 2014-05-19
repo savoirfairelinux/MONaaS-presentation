@@ -8,6 +8,7 @@
         <li class="fragment">Openstack-dev</li>
         <li class="fragment">Contact avec l'équipe de Ceilometer</li>
        </ul>
+<<<<<<< HEAD
 
     .. raw:: html
 
@@ -15,3 +16,5 @@
             Réaction de HP
             <br>Meetings IRC
         </aside>
+=======
+>>>>>>> parent of 80714cc... Test d'ajout de notes
