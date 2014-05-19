@@ -9,4 +9,6 @@
 
     <aside class="notes">
         Le SLA doit être beaucoup plus haut que celui de l'application.
+        <br/>
+        00:10:00
     </aside>
