@@ -3,4 +3,7 @@ To build the presentation
 2. pip install -r requirements.freeze
 3. make html
 
-The presentation is hosted at https://savoirfairelinux.github.io/MONaaS-presentation/
+The presentation is hosted the following URLS:
+
+French: https://savoirfairelinux.github.io/MONaaS-presentation/
+English: https://savoirfairelinux.github.io/MONaaS-presentation/en
