@@ -26,7 +26,7 @@ Thibault Cohen
 
  .. raw:: html
 
-    <a href="javascript:printIt()">version PDF </a>
+    <a href="javascript:printIt()">PDF</a>
     <script>
             function printIt(printThis) {
             url = location.protocol + "//" + location.hostname + location.pathname + "?print-pdf"
@@ -36,4 +36,3 @@ Thibault Cohen
             //child.close();  //Immediately close the child.
             }
     </script>
-

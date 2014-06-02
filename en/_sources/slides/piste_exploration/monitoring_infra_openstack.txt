@@ -1,9 +1,9 @@
-* Disponibilité de chaque élément d'OpenStack à travers l'API
-* Performance de chaque éléments d'OpenStack à travers Ceilometer
-* Supervision des événements à travers RabbitMQ
+* Availability of each component trough it's API
+* Performance of OpenStack components trough Ceilometer
+* Events monitoring trough RabbitMQ
 
 .. raw:: html
 
     <aside class="notes">
-        Monitoring actuel Nagios
+        Monitoring nagios
     </aside>
