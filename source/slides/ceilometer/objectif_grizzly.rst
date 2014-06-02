@@ -1,6 +1,6 @@
-**Depuis Grizzly:**
+**Since Grizzly:**
 
-Devenir l'infrastructure pour la collecte de mesures dans OpenStack afin d'éviter que deux agents soient développés pour acquérir les mêmes données. Le but principal de Ceilometer est le **monitoring** et le metering.
+To become the infrastructure to collect measurements within OpenStack so that no two agents would need to be written to collect the same data. Its primary targets are **monitoring** and metering.
 
 .. image:: /_static/images/nsa.png
     :width: 300

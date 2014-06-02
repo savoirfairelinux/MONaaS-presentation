@@ -4,7 +4,7 @@
     :depth: 2
 
 
-.. revealjs:: Supervision OpenStack
+.. revealjs:: OpenStack Monitoring
 
     .. include:: intro.rst
 
@@ -13,7 +13,7 @@
 
     .. include:: intro2.rst
 
-.. revealjs:: Qu'est-ce que la supervision?
+.. revealjs:: What is monitoring?
     :title-heading: h2
 
     .. include:: slides/monitoring.rst

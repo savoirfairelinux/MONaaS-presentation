@@ -4,21 +4,21 @@
 
     .. include:: slides/monitoring_as_a_service/description.rst
 
-.. revealjs:: Ce que cela apporterait
+.. revealjs:: What this would bring
 
-.. revealjs:: Polling d'agents dans les instances
+.. revealjs:: Polling of in-instance agents
 
     .. include:: slides/monitoring_as_a_service/polling_agent.rst
 
-.. revealjs:: Supervision des services
+.. revealjs:: Services monitoring
 
     .. include:: slides/monitoring_as_a_service/availability.rst
 
-.. revealjs:: Supervision depuis plusieurs sites
+.. revealjs:: Multiple zones monitoring
 
     .. include:: slides/monitoring_as_a_service/multisite.rst
 
-.. revealjs:: Supervision depuis plusieurs sites (schéma)
+.. revealjs:: Multiple zones monitoring (schema)
     :title-heading: h4
 
     .. include:: slides/monitoring_as_a_service/multisite_schema.rst

@@ -5,5 +5,5 @@
     <li class="fragment">Expérience utilisateurs depuis plusieurs sites</li>
     <li class="fragment">Assurer la disponibilité</li>
     <li class="fragment">Supervision plus complète</li>
-    <li class="fragment">Comment est-ce que les utilisateurs de Montréal vivent la release localisée d'un nouveau module de notre application?</li>
+    <li class="fragment">How are users in Montreal experiencing the new release of our XYZ application?</li>
     </ul>

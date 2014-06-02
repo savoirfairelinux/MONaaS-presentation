@@ -1,4 +1,4 @@
-.. revealjs:: L'État de la supervision dans le cloud
+.. revealjs:: The state of monitoring in the cloud
 
 
 .. revealjs::

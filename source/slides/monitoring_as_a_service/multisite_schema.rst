@@ -3,8 +3,7 @@
 .. raw:: html
 
     <aside class="notes">
-        Monitoring actuel Nagios
+        Actual monitoring Nagios
         <br/>
         00:15:00
     </aside>
-

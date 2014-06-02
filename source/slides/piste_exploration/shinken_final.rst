@@ -2,7 +2,7 @@
 
     <br/>
 
-* Des applicatifs (Support de StatD, ...)
+* Des applicatifs (StatD support, ...)
 * De la plate-forme (Apache, Mysql, Reddis, ...)
 * De l'infrastructure (CPU, mémoire, IO, ...)
 

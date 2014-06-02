@@ -10,9 +10,9 @@
 .. raw:: html
 
    <ul>
-   <li class="fragment">Supervision <b>active</b> et passive</li>
-    <li class="fragment">Vérification de services</li>
-   <li class="fragment">API Put pour métriques personnalisées</li>
-   <li class="fragment">Alarmes</li>
-   <li class="fragment">Agent in-instance</li>
+   <li class="fragment"><b>active</b> and passive monitoring</li>
+    <li class="fragment">Services checks</li>
+   <li class="fragment">Put API for custom metrics</li>
+   <li class="fragment">Alarms</li>
+   <li class="fragment">In-instance Agent</li>
    </ul>
