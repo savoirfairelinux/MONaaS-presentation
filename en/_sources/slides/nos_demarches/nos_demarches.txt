@@ -1,17 +1,17 @@
-.. revealjs:: Nos démarches
+.. revealjs:: What we have done
 
     .. rst-class:: fragment
     .. raw:: html
 
         <ul>
-        <li class="fragment">Soumission du blueprint</li>
+        <li class="fragment">Submitted the blueprint</li>
         <li class="fragment">Openstack-dev</li>
-        <li class="fragment">Contact avec l'équipe de Ceilometer</li>
+        <li class="fragment">Reached to the Ceilometer Team</li>
        </ul>
 
     .. raw:: html
 
         <aside class="notes">
-            Réaction de HP
+            Reactions of HP
             <br>Meetings IRC
         </aside>

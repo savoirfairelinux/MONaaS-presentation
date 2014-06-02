@@ -1,14 +1,14 @@
 .. rst-class:: fragment
 
-    * API RESTful
-    * **Hautement disponible**
-    * Tolérant aux erreurs
-    * Autosupervisé
+    * RESTful API
+    * **Highly available**
+    * Fault-tolerant
+    * Self-monitored
 
 .. raw:: html
 
     <aside class="notes">
-        Le SLA doit être beaucoup plus haut que celui de l'application.
+        The SLA has to be way higher than the application's.
         <br/>
         00:10:00
     </aside>

@@ -1,6 +1,6 @@
 .. rst-class:: fragment
 
-    * Disponibilité
-    * Temps de réponse
-    * Scénarios HTTP
-    * Protocoles TCP/UDP (NTP, DNS, MYSQL, SMTP, IMAP, ...)
+    * Availability
+    * Response time
+    * HTTP scenarios
+    * TCP/UDP protocols (NTP, DNS, MYSQL, SMTP, IMAP, ...)

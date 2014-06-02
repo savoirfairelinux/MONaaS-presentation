@@ -3,4 +3,4 @@
     * NRPE
     * SNMP
     * SSH
-    * etc... Nouveau protocole??
+    * etc... New protocol??

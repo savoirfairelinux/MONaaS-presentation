@@ -1,5 +1,5 @@
-* Compatibilité Nagios
-* Écrit en Python
-* Architecture modulaire
-* Support des règles d'affaires
-* Intégration possible dans Horizon
+* Nagios Compatible
+* Written in Python
+* Modular architecture
+* Supports buisness rules
+* Possible integration in Horizon
