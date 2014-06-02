@@ -1,6 +1,6 @@
-- Standard monitoring of the infrastructure
+- Supervision standard de l'infrastructure
 
-  * Servers
+  * Serveurs
   * Switches
   * Firewall
   * SAN

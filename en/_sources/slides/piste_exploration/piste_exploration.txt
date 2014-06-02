@@ -1,4 +1,4 @@
-.. revealjs:: Implementation ideas
+.. revealjs:: Idées d'implémentation
 
 .. revealjs:: hpcloud-mon
     :title-heading: h3
@@ -16,34 +16,34 @@
     :data-background: _static/images/openstack_havana_conceptual_arch2.png
     :data-background-size: auto 95%
 
-.. revealjs:: Shinken as a monitoring framework ?
+.. revealjs:: Shinken comme coeur de supervision ?
     :title-heading: h2
 
     .. include:: slides/piste_exploration/shinken.rst
 
-.. revealjs:: Implementation example with Shinken
+.. revealjs:: Exemple d'implémentation avec Shinken
     :title-heading: h3
 
 
     .. include:: slides/piste_exploration/shinken2.rst
 
 
-.. revealjs:: Implementation example with Shinken
+.. revealjs:: Exemple d'implémentation avec Shinken
     :title-heading: h3
 
     .. include:: slides/piste_exploration/shinken3.rst
 
-.. revealjs:: OpenStack infrastructure monitoring
+.. revealjs:: Supervision de l'infrastructure OpenStack
     :title-heading: h2
 
     .. include:: slides/piste_exploration/monitoring_infra_openstack.rst
 
-.. revealjs:: Monitoring on the ground
+.. revealjs:: Supervision sur terre
     :title-heading: h2
 
     .. include:: slides/piste_exploration/monitoring_physique.rst
 
-.. revealjs:: Three levels of monitoring
+.. revealjs:: Supervision sur trois niveaux
     :title-heading: h3
 
     .. include:: slides/piste_exploration/shinken_final.rst

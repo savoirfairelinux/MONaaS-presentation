@@ -32,7 +32,7 @@
       <div class="slides">
         
   <section>
-<h2>OpenStack Monitoring</h2>
+<h2>Supervision OpenStack</h2>
 <p class="first">MONaaS</p>
 <br/>
 <br/><p>Alexandre Viau</p>
@@ -43,7 +43,8 @@
 <a class="reference external" href="mailto:thibault&#46;cohen&#37;&#52;&#48;savoirfairelinux&#46;com">thibault<span>&#46;</span>cohen<span>&#64;</span>savoirfairelinux<span>&#46;</span>com</a></small>
 <br/>
 <br/><small class="last">
-<div class="first last"><a href="javascript:printIt()">PDF</a>
+<div class="first"><a href="https://savoirfairelinux.github.io/MONaaS-presentation/en">EN</a> -
+<a href="https://savoirfairelinux.github.io/MONaaS-presentation">FR</a></div><div class="last"><a href="javascript:printIt()">version PDF </a>
 <script>
         function printIt(printThis) {
         url = location.protocol + "//" + location.hostname + location.pathname + "?print-pdf"
@@ -62,35 +63,37 @@
 </ul>
 </section>
 <section>
-<h2>What is monitoring?</h2>
+<h2>Qu'est-ce que la supervision?</h2>
 <ul class="first last simple">
-<li>Executes checks</li>
-<li>Applies rules</li>
-<li>Alerts users</li>
-<li>Saves a history of the data</li>
+<li>Exécute des vérifications</li>
+<li>Applique des règles</li>
+<li>Alerte les utilisateurs</li>
+<li>Stocke un historique des données</li>
 </ul>
 </section>
 <section>
 <section class="first">
-<h2>The state of monitoring in the cloud</h2>
+<h2>L'État de la supervision dans le cloud</h2>
 </section>
 <section>
 <a class="first reference external image-reference" href="https://aws.amazon.com/cloudwatch/"><img alt="Amazon CloudWatch" src="_images/amazon_cloudwatch.png" style="width: 588px; height: 144px;" /></a>
-<p class="fragment">&#8220;<strong>Amazon CloudWatch</strong> provides monitoring for AWS cloud resources and the applications customers run on AWS.&#8221;</p>
+<p class="fragment">&#8220;<strong>Amazon CloudWatch</strong> fournit une surveillance pour les ressources du cloud AWS et les applications que les clients exécutent sur AWS.&#8221;</p>
 <div class="fragment last"><ul>
-<li class="fragment">Passive monmitoring only</li>
-<li class="fragment">Put API for custom metrics</li>
-<li class="fragment">Alarms</li>
-<li class="fragment">Use Auto Scaling to add or remove Amazon EC2 instances dynamically based on your Amazon CloudWatch metrics.</li>
+<li class="fragment">Supervision passive seulement</li>
+<li class="fragment">API Put pour métriques personnalisées</li>
+<li class="fragment">Alarmes</li>
+<li class="fragment">Utilisez Auto Scaling pour ajouter ou supprimer
+dynamiquement des instances Amazon EC2 en fonction de vos mesures Amazon
+CloudWatch</li>
 </ul></div></section>
 <section class="last">
 <a class="first reference external image-reference" href="https://monitoring.api.rackspacecloud.com/"><img alt="Rackspace Cloud Monitoring" src="_images/rackspace-cloud-monitoring.png" style="width: 588px; height: 144px;" /></a>
 <div class="fragment last"><ul>
-<li class="fragment"><b>Active</b> and passive monitoring</li>
- <li class="fragment">Services checks</li>
-<li class="fragment">Put API for custom metrics</li>
-<li class="fragment">Alarms</li>
-<li class="fragment">In-instance Agent</li>
+<li class="fragment">Supervision <b>active</b> et passive</li>
+ <li class="fragment">Vérification de services</li>
+<li class="fragment">API Put pour métriques personnalisées</li>
+<li class="fragment">Alarmes</li>
+<li class="fragment">Agent in-instance</li>
 </ul></div></section>
 </section>
 <section>
@@ -100,33 +103,33 @@
 <a class="first last reference external image-reference" href="https://wiki.openstack.org/wiki/Ceilometer"><img alt="Ceilometer" src="_images/ceilometer.jpg" /></a>
 </section>
 <section>
-<p class="first"><strong>Initial objective</strong></p>
-<p>To deliver a unique point of contact for <strong>billing systems</strong> to aquire all <strong>meters</strong> they need to establish customer billing, across all current and future OpenStack core components.</p>
+<p class="first"><strong>Objectif initial</strong></p>
+<p>Être l&#8217;unique point de contact pour les <strong>systèmes de facturation</strong> et d&#8217;acquérir toutes les <strong>mesures</strong> dont ceux ci ont besoin pour effectuer la facturation à travers l&#8217;ensemble des composants d&#8217;OpenStack.</p>
 <a class="last reference external image-reference" href="http://docs.openstack.org/developer/ceilometer/measurements.html:alt:RubanMesurer:width:300:height:300"><img alt="_images/ruban_mesurer.png" src="_images/ruban_mesurer.png" /></a>
 </section>
 <section>
-<p class="first"><strong>As of Grizzly:</strong></p>
-<p>To become the infrastructure to collect measurements within OpenStack so that no two agents would need to be written to collect the same data. Its primary targets are <strong>monitoring</strong> and metering.</p>
+<p class="first"><strong>Depuis Grizzly:</strong></p>
+<p>Devenir l&#8217;infrastructure pour la collecte de mesures dans OpenStack afin d&#8217;éviter que deux agents soient développés pour acquérir les mêmes données. Le but principal de Ceilometer est le <strong>monitoring</strong> et le metering.</p>
 <a class="last reference internal image-reference" href="_images/nsa.png"><img alt="caméra" src="_images/nsa.png" style="width: 300px; height: 300px;" /></a>
 </section>
 <section class="last">
-<h2>Available measurments in Ceilometer</h2>
+<h2>Les métriques disponibles dans Ceilometer</h2>
 <div class="fragment first last"><ul>
-<li class="fragment">CPU usage</li>
-<li class="fragment"­>Memory usage</li>
-<li class="fragment">Disk usage</li>
-<li class="fragment">Network traffic</li>
+<li class="fragment">Utilisation CPU</li>
+<li class="fragment"­>Utilisation mémoire</li>
+<li class="fragment">Utilisation du disque</li>
+<li class="fragment">Trafic réseau</li>
 </ul></div></section>
 </section>
 <section>
-<h2>What's missing...</h2>
+<h2>Ce qui manque...</h2>
 <div class="fragment first last"><ul>
 <li class="fragment">Polling</li>
-<li class="fragment">Services availability</li>
-<li class="fragment">Applicative data</li>
-<li class="fragment">Checks scenarios</li>
-<li class="fragment">Buisness rules</li>
-<li class="fragment">Scaling rules driven by system/application specific metrics.</li>
+<li class="fragment">Disponibilité de services</li>
+<li class="fragment">Données applicatives</li>
+<li class="fragment">Scénarios de vérification</li>
+<li class="fragment">Règles d'affaires</li>
+<li class="fragment">Scaling sur les données applicatives</li>
 </ul></div></section>
 <section>
 <section class="first">
@@ -135,69 +138,69 @@
 <section>
 <h2>Monitoring as a Service</h2>
 <ul class="fragment first simple">
-<li>RESTful API</li>
-<li><strong>Highly available</strong></li>
-<li>Fault-tolerant</li>
-<li>Self-monitored</li>
+<li>API RESTful</li>
+<li><strong>Hautement disponible</strong></li>
+<li>Tolérant aux erreurs</li>
+<li>Autosupervisé</li>
 </ul>
 <div class="last"><aside class="notes">
-    The SLA has to be way higher than the application's.
+    Le SLA doit être beaucoup plus haut que celui de l'application.
     <br/>
     00:10:00
 </aside></div></section>
 <section>
-<h2>What this would bring</h2>
+<h2>Ce que cela apporterait</h2>
 </section>
 <section>
-<h2>Polling of in-instance agents</h2>
+<h2>Polling d'agents dans les instances</h2>
 <ul class="fragment first last simple">
 <li>NRPE</li>
 <li>SNMP</li>
 <li>SSH</li>
-<li>etc... New protocol??</li>
+<li>etc... Nouveau protocole??</li>
 </ul>
 </section>
 <section>
-<h2>Services monitoring</h2>
+<h2>Supervision des services</h2>
 <ul class="fragment first last simple">
-<li>Availability</li>
-<li>Response time</li>
-<li>HTTP scenarios</li>
-<li>TCP/UDP protocols (NTP, DNS, MYSQL, SMTP, IMAP, ...)</li>
+<li>Disponibilité</li>
+<li>Temps de réponse</li>
+<li>Scénarios HTTP</li>
+<li>Protocoles TCP/UDP (NTP, DNS, MYSQL, SMTP, IMAP, ...)</li>
 </ul>
 </section>
 <section>
-<h2>Multiple zones monitoring</h2>
+<h2>Supervision depuis plusieurs sites</h2>
 <div class="fragment first last"><ul>
-<li class="fragment">User experience from several zones</li>
-<li class="fragment">Ensure availability</li>
-<li class="fragment">More complete monitoring</li>
-<li class="fragment">How are users in Montreal experiencing the new release of our XYZ application?</li>
+<li class="fragment">Expérience utilisateurs depuis plusieurs sites</li>
+<li class="fragment">Assurer la disponibilité</li>
+<li class="fragment">Supervision plus complète</li>
+<li class="fragment">Comment est-ce que les utilisateurs de Montréal vivent la release localisée d'un nouveau module de notre application?</li>
 </ul></div></section>
 <section class="last">
-<h4>Multiple zones monitoring (schema)</h4>
+<h4>Supervision depuis plusieurs sites (schéma)</h4>
 <img alt="_images/verification-multi-site.png" class="first" src="_images/verification-multi-site.png" />
 <div class="last"><aside class="notes">
-    Actual monitoring Nagios
+    Monitoring actuel Nagios
     <br/>
     00:15:00
 </aside></div></section>
 </section>
 <section>
 <section class="first last">
-<h2>What we have done</h2>
+<h2>Nos démarches</h2>
 <div class="fragment first"> <ul>
- <li class="fragment">Submitted the blueprint</li>
+ <li class="fragment">Soumission du blueprint</li>
  <li class="fragment">Openstack-dev</li>
- <li class="fragment">Reached to the Ceilometer Team</li>
+ <li class="fragment">Contact avec l'équipe de Ceilometer</li>
 </ul></div><div class="last"><aside class="notes">
-    Reactions of HP
+    Réaction de HP
     <br>Meetings IRC
 </aside></div></section>
 </section>
 <section>
 <section class="first">
-<h2>Implementation ideas</h2>
+<h2>Idées d'implémentation</h2>
 </section>
 <section>
 <h3>hpcloud-mon</h3>
@@ -208,38 +211,38 @@
 <section data-background="_static/images/openstack_havana_conceptual_arch2.png" data-background-size="auto 95%" data-transition="fade">
 </section>
 <section>
-<h2>Shinken as a monitoring framework ?</h2>
+<h2>Shinken comme coeur de supervision ?</h2>
 <ul class="first last simple">
-<li>Nagios Compatible</li>
-<li>Written in Python</li>
-<li>Modular architecture</li>
-<li>Supports buisness rules</li>
-<li>Possible integration in Horizon</li>
+<li>Compatibilité Nagios</li>
+<li>Écrit en Python</li>
+<li>Architecture modulaire</li>
+<li>Support des règles d&#8217;affaires</li>
+<li>Intégration possible dans Horizon</li>
 </ul>
 </section>
 <section>
-<h3>Implementation example with Shinken</h3>
+<h3>Exemple d'implémentation avec Shinken</h3>
 <img alt="_images/shinken_in_openstack.png" class="first last" src="_images/shinken_in_openstack.png" />
 </section>
 <section>
-<h3>Implementation example with Shinken</h3>
+<h3>Exemple d'implémentation avec Shinken</h3>
 <img alt="_images/shinken_openstack_multisite.png" class="first last" src="_images/shinken_openstack_multisite.png" />
 </section>
 <section>
-<h2>OpenStack infrastructure monitoring</h2>
+<h2>Supervision de l'infrastructure OpenStack</h2>
 <ul class="first simple">
-<li>Availability of each component trough it&#8217;s API</li>
-<li>Performance of OpenStack components trough Ceilometer</li>
-<li>Events monitoring trough RabbitMQ</li>
+<li>Disponibilité de chaque élément d&#8217;OpenStack à travers l&#8217;API</li>
+<li>Performance de chaque éléments d&#8217;OpenStack à travers Ceilometer</li>
+<li>Supervision des événements à travers RabbitMQ</li>
 </ul>
 <div class="last"><aside class="notes">
-    Monitoring nagios
+    Monitoring actuel Nagios
 </aside></div></section>
 <section>
-<h2>Monitoring on the ground</h2>
+<h2>Supervision sur terre</h2>
 <ul class="first last simple">
-<li>Standard monitoring of the infrastructure<ul>
-<li>Servers</li>
+<li>Supervision standard de l&#8217;infrastructure<ul>
+<li>Serveurs</li>
 <li>Switches</li>
 <li>Firewall</li>
 <li>SAN</li>
@@ -249,31 +252,31 @@
 </ul>
 </section>
 <section class="last">
-<h3>Three levels of monitoring</h3>
+<h3>Supervision sur trois niveaux</h3>
 <div class="first"><br/></div><ul class="simple">
-<li>Applicative (StatD support, ...)</li>
-<li>Platform (Apache, Mysql, Reddis, ...)</li>
-<li>Infrastructure (CPU, mémoire, IO, ...)</li>
+<li>Des applicatifs (Support de StatD, ...)</li>
+<li>De la plate-forme (Apache, Mysql, Reddis, ...)</li>
+<li>De l&#8217;infrastructure (CPU, mémoire, IO, ...)</li>
 </ul>
 <br/>
-<br/><p class="last">Shinken&#8217;s royaume concept would enable the separation of the three level monitoring.</p>
+<br/><p class="last">Le concept de royaume dans Shinken permettrait d&#8217;effectuer la superivision de ces trois niveaux, de façon indépendante</p>
 </section>
 </section>
 <section>
 <section class="first last">
-<h2>References</h2>
+<h2>références</h2>
 <ul class="first last simple">
-<li>MONaas blueprint: <a class="reference external" href="https://blueprints.launchpad.net/ceilometer/+spec/monitoring-as-a-service">https://blueprints.launchpad.net/ceilometer/+spec/monitoring-as-a-service</a></li>
-<li>Wiki page: <a class="reference external" href="https://wiki.openstack.org/wiki/MONaaS">https://wiki.openstack.org/wiki/MONaaS</a></li>
-<li>Announcement on openstack-dev: <a class="reference external" href="http://lists.openstack.org/pipermail/openstack-dev/2014-May/034189.html">http://lists.openstack.org/pipermail/openstack-dev/2014-May/034189.html</a></li>
+<li>Blueprint MONaas: <a class="reference external" href="https://blueprints.launchpad.net/ceilometer/+spec/monitoring-as-a-service">https://blueprints.launchpad.net/ceilometer/+spec/monitoring-as-a-service</a></li>
+<li>Page wiki: <a class="reference external" href="https://wiki.openstack.org/wiki/MONaaS">https://wiki.openstack.org/wiki/MONaaS</a></li>
+<li>Annoncement sur openstack-dev: <a class="reference external" href="http://lists.openstack.org/pipermail/openstack-dev/2014-May/034189.html">http://lists.openstack.org/pipermail/openstack-dev/2014-May/034189.html</a></li>
 </ul>
 </section>
 </section>
 <section>
 <section class="first last">
 <h2>Questions / Discussion</h2>
-<a class="first reference internal image-reference" href="_images/qrcode_presentation_en.svg"><img height="510" src="_images/qrcode_presentation_en.svg" width="510" /></a>
-<p class="last">⇑⇑ savoirfairelinux.github.io/MONaaS-presentation/en ⇑⇑</p>
+<a class="first reference internal image-reference" href="_images/qrcode_presentation.svg"><img height="510" src="_images/qrcode_presentation.svg" width="510" /></a>
+<p class="last">⇑⇑ savoirfairelinux.github.io/MONaaS-presentation ⇑⇑</p>
 </section>
 </section>
 

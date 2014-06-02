@@ -13,6 +13,6 @@
 
     .. include:: slides/ceilometer/objectif_grizzly.rst
 
-.. revealjs:: Available measurments in Ceilometer
+.. revealjs:: Les métriques disponibles dans Ceilometer
 
     .. include:: slides/ceilometer/metric_dispo.rst
