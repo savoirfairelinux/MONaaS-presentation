@@ -1,4 +1,4 @@
-**Since Grizzly:**
+**As of Grizzly:**
 
 To become the infrastructure to collect measurements within OpenStack so that no two agents would need to be written to collect the same data. Its primary targets are **monitoring** and metering.
 

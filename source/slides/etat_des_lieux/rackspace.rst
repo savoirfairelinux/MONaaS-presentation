@@ -10,7 +10,7 @@
 .. raw:: html
 
    <ul>
-   <li class="fragment"><b>active</b> and passive monitoring</li>
+   <li class="fragment"><b>Active</b> and passive monitoring</li>
     <li class="fragment">Services checks</li>
    <li class="fragment">Put API for custom metrics</li>
    <li class="fragment">Alarms</li>
